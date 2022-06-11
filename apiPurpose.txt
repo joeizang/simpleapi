@@ -1,0 +1,20 @@
+SIMPLE BUSINESS LISTER API
+
+This gives users of the api the ability to create businesses they have come across in the city
+They will be creating a business by submitting the following
+
+{
+  businessName,
+  businessAddress,
+  businessPhoneNumber,
+  businessDescription,
+  businessMapPinLocation
+}
+
+but a business will have the following also
+{
+  businessId,
+  createdAt,
+  updatedAt,
+  isDeleted,
+}
